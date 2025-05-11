@@ -1,3 +1,10 @@
+
+
+
+# 👨‍💻 Auteur
+
+Projet développé par Josias, Statisticien & Data Analyst passionné de visualisation et d’IA.
+
 # 📦 Dashboard E-Commerce avec Streamlit
 
 Ce projet est une application web interactive construite avec **Streamlit** permettant d’analyser les ventes d’un site de commerce électronique. Le tableau de bord propose des visualisations dynamiques, des filtres interactifs et des indicateurs clés de performance.

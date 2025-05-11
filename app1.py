@@ -11,7 +11,7 @@ st.title("📦 Tableau de Bord - E-commerce")
 # 2. Chargement des données
 @st.cache_data
 def load_data():
-    df = pd.read_csv("ecommerce_data.csv", encoding='ISO-8859-1')  # adapte le nom du fichier
+    df = pd.read_csv("ecommerce_data.csv", encoding='ISO-8859-1') 
     df['InvoiceDate'] = pd.to_datetime(df['InvoiceDate'])
     df['Total'] = df['Quantity'] * df['UnitPrice']
     return df
