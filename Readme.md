@@ -6,7 +6,7 @@ Ce projet est une application web interactive construite avec **Streamlit** perm
 
 ### 👨‍💻 Auteur
 
-Projet développé par Josias, Statisticien & Data Analyst passionné de visualisation et d’IA.
+Projet développé par **Josias Nteme**, Statisticien & Data Analyst passionné de visualisation et d’IA.
 
 ![e_commerce](https://github.com/user-attachments/assets/fed80e22-2cdc-4d13-8704-d8f92e26e7a0)
 
