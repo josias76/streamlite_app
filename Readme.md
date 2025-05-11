@@ -1,3 +1,7 @@
+
+
+![e_commerce](https://github.com/user-attachments/assets/fed80e22-2cdc-4d13-8704-d8f92e26e7a0)
+
 # 📦 Dashboard E-Commerce avec Streamlit
 
 Ce projet est une application web interactive construite avec **Streamlit** permettant d’analyser les ventes d’un site de commerce électronique. Le tableau de bord propose des visualisations dynamiques, des filtres interactifs et des indicateurs clés de performance.
