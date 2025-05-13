@@ -32,7 +32,7 @@ df_filtered = df[
 
 # 4. KPI
 total_sales = df_filtered['Total'].sum()
-total_orders = df_filtered['InvoiceNo'].nunique()
+total_orders = df_filtered['InvoiceNo'].nunique()  
 avg_order = total_sales / total_orders if total_orders > 0 else 0
 
 st.markdown("### 🔢 Indicateurs Clés")
@@ -52,3 +52,11 @@ st.markdown("### 🏷️ Top Produits")
 top_products = df_filtered.groupby('Description')['Total'].sum().nlargest(10).reset_index()
 fig2 = px.bar(top_products, x='Total', y='Description', orientation='h', title="Top 10 Produits")
 st.plotly_chart(fig2, use_container_width=True)
+
+
+st.markdown("""
+    <hr style="border-top: 1px solid #4CAF50; margin-top: 50px;"/>
+    <div style="text-align: center; color: #888; font-size: 0.9em;">
+        &copy; 2025 <strong>Josias Nteme</strong> - Tous droits réservés.
+    </div>
+""", unsafe_allow_html=True)
